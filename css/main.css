@@ -37,6 +37,40 @@ body {
 	height: 400px;
 	background-size: contain;
 	background-repeat: no-repeat;
+	-webkit-animation: letterandarrow-move 7.5s ease-in-out alternate infinite;
+	animation: letterandarrow-move 7.5s ease-in-out alternate infinite;
+}
+
+@-webkit-keyframes letterandarrow-move {
+
+	0% {
+	transform: scale(1,1);
+}
+
+50% {
+		transform: scale(0.9,0.9);
+}
+
+100% {
+	transform: scale(1.025,1.025);
+}
+
+}
+
+@keyframes letterandarrow-move {
+
+	0% {
+	transform: scale(1,1);
+}
+
+50% {
+		transform: scale(0.9,0.9);
+}
+
+100% {
+	transform: scale(1.025,1.025);
+}
+
 }
 
 .moon {
@@ -48,22 +82,25 @@ body {
 	height: 400px;
 	background-size: contain;
 	background-repeat: no-repeat;
-	-webkit-animation: logo-move 5s ease-in-out alternate infinite;
-	animation: logo-move 5s ease-in-out alternate infinite;
+	-webkit-animation: logo-move 7.5s ease-in-out alternate infinite;
+	animation: logo-move 7.5s ease-in-out alternate infinite;
 }
 
 @-webkit-keyframes logo-move {
 
 	0% {
 	transform: scale(1,1);
+	opacity: 0;
 }
 
 50% {
 		transform: scale(1.05,1.05);
+		opacity: 1;
 }
 
 100% {
 	transform: scale(1,1);
+	opacity: 0;
 }
 
 }
@@ -72,14 +109,34 @@ body {
 
 	0% {
 	transform: scale(1,1);
+	opacity: 0;
 }
 
 50% {
 		transform: scale(1.05,1.05);
+		opacity: 1;
 }
 
 100% {
 	transform: scale(1,1);
+	opacity: 0;
 }
 
+}
+
+.mmname {
+	position: absolute;
+	background-image: url(../images/mmname.svg);
+	top: 420px;
+	left: calc(50% - 160px);
+	width: 320px;
+	height: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	transform-origin: center center;
+	transition: all 250ms linear;
+}
+
+.mmname:hover {
+transform: scale(1.25,1.25);
 }
