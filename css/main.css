@@ -16,3 +16,70 @@ html {
 *, *::before, *::after {
 	box-sizing: inherit;
 }
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: grey;
+}
+
+.tagline {
+	font-family: Arial, sans-serif;
+}
+
+.letterandarrow {
+		position: absolute;
+	background-image: url(../images/letterandarrow.svg);
+	top: 100px;
+	left: calc(50% - 160px);
+	width: 320px;
+	height: 400px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.moon {
+	position: absolute;
+	background-image: url(../images/moon.svg);
+	top: 100px;
+	left: calc(50% - 160px);
+	width: 320px;
+	height: 400px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	-webkit-animation: logo-move 5s ease-in-out alternate infinite;
+	animation: logo-move 5s ease-in-out alternate infinite;
+}
+
+@-webkit-keyframes logo-move {
+
+	0% {
+	transform: scale(1,1);
+}
+
+50% {
+		transform: scale(1.05,1.05);
+}
+
+100% {
+	transform: scale(1,1);
+}
+
+}
+
+@keyframes logo-move {
+
+	0% {
+	transform: scale(1,1);
+}
+
+50% {
+		transform: scale(1.05,1.05);
+}
+
+100% {
+	transform: scale(1,1);
+}
+
+}
