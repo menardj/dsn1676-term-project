@@ -212,25 +212,123 @@ transform: scale(1.25,1.25);
 	display: block;
 }
 
+.photography {
+	text-align: center;
+}
+
 .photo-icon {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
   max-width: 200px;
+}
+
+.illustration {
+	text-align: center;
 }
 
 .illustration-icon {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
   max-width: 200px;
+}
+
+.motion {
+	text-align: center;
 }
 
 .motion-icon {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
   max-width: 200px;
+}
+
+.btn-collapse-expand01 {
+ background: none;
+ border-style: none;
+}
+
+.btn-collapse-expand02 {
+ background: none;
+ border-style: none;
+}
+
+.btn-collapse-expand03 {
+ background: none;
+ border-style: none;
+}
+
+.panelborder {
+	border-style: solid;
+}
+
+.panel01 {
+  width: 250px;
+  top: 50%%;
+  max-height: 0px;
+  background-color: grey;
+  transform: translateY(-50%);
+  transition: all 250ms linear;
+  text-align: center;
+  overflow: hidden;
+	margin: 0 auto;
+}
+
+.panel01 p {
+  margin: 0;
+  padding: 0 0;
+}
+
+.panel02 {
+  width: 250px;
+  top: 50%%;
+  max-height: 0px;
+  background-color: grey;
+  transform: translateY(-50%);
+  transition: all 250ms linear;
+  text-align: center;
+  overflow: hidden;
+}
+
+.panel02 p {
+  margin: 0;
+  padding: 0 0;
+}
+
+.panel03 {
+  width: 250px;
+  top: 50%%;
+  max-height: 0px;
+  background-color: grey;
+  transform: translateY(-50%);
+  transition: all 250ms linear;
+  text-align: center;
+  overflow: hidden;
+}
+
+.panel03 p {
+  margin: 0;
+  padding: 0 0;
+}
+
+.js-collapse-expand01 {
+  max-height: 10em;
+  text-align: center;
+}
+
+.js-collapse-expand02 {
+  max-height: 10em;
+  text-align: center;
+}
+
+.js-collapse-expand03 {
+  max-height: 10em;
+  text-align: center;
 }
 
 @media only screen and (min-width: 20em) {
@@ -247,8 +345,8 @@ transform: scale(1.25,1.25);
 @media only screen and (min-width: 45em) {
 
 	.logo-icon {
-  max-width: 100px;
   margin: 0 auto;
+  width: 80px;
 }
 
     .menard-title {
@@ -266,11 +364,6 @@ transform: scale(1.25,1.25);
 }
 
 @media only screen and (min-width: 60em) {
-
-	.logo-icon {
-  max-width: 150px;
-  margin: 0 auto;
-}
 
     .menard-title {
         float: left;
