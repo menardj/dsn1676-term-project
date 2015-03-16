@@ -210,25 +210,27 @@ transform: scale(1.25,1.25);
 
 .media-p {
 	display: block;
-	margin-left: 6em;
 }
 
 .photo-icon {
   display: block;
-  max-width: 100px;
-  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
 }
 
 .illustration-icon {
   display: block;
-  max-width: 100px;
-  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
 }
 
 .motion-icon {
   display: block;
-  max-width: 100px;
-  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
 }
 
 @media only screen and (min-width: 20em) {
