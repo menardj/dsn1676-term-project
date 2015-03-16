@@ -198,6 +198,27 @@ transform: scale(1.25,1.25);
   padding-top: .5em;
 }
 
+.photo-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100px;
+}
+
+.illustration-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100px;
+}
+
+.motion-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100px;
+}
+
 @media only screen and (min-width: 20em) {
 
     .nav a {
