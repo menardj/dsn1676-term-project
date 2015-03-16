@@ -31,7 +31,7 @@ body {
 .letterandarrow {
 		position: absolute;
 	background-image: url(../images/letterandarrow.svg);
-	top: 100px;
+	top: 180px;
 	left: calc(50% - 160px);
 	width: 320px;
 	height: 400px;
@@ -76,7 +76,7 @@ body {
 .moon {
 	position: absolute;
 	background-image: url(../images/moon.svg);
-	top: 100px;
+	top: 180px;
 	left: calc(50% - 160px);
 	width: 320px;
 	height: 400px;
@@ -90,7 +90,7 @@ body {
 
 	0% {
 	transform: scale(1,1);
-	opacity: 0;
+	opacity: 0.25;
 }
 
 50% {
@@ -100,7 +100,7 @@ body {
 
 100% {
 	transform: scale(1,1);
-	opacity: 0;
+	opacity: 0.25;
 }
 
 }
@@ -109,7 +109,7 @@ body {
 
 	0% {
 	transform: scale(1,1);
-	opacity: 0;
+	opacity: 0.25;
 }
 
 50% {
@@ -119,7 +119,7 @@ body {
 
 100% {
 	transform: scale(1,1);
-	opacity: 0;
+	opacity: 0.25;
 }
 
 }
@@ -127,7 +127,7 @@ body {
 .mmname {
 	position: absolute;
 	background-image: url(../images/mmname.svg);
-	top: 420px;
+	top: 500px;
 	left: calc(50% - 160px);
 	width: 320px;
 	height: 50px;
@@ -139,4 +139,106 @@ body {
 
 .mmname:hover {
 transform: scale(1.25,1.25);
+}
+
+.nav-header {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: black;
+    text-align: center;
+}
+
+.nav-footer {
+  background-color: black;
+}
+
+.nav-footer li {
+  margin-right: 1.5rem;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+  color: #CCCCCC;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+  background-color: #B2B2B2;
+  color: black;
+}
+
+.menard-title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.logo-icon {
+  max-width: 100px;
+  margin: 0 auto;
+  padding-top: .5em;
+}
+
+@media only screen and (min-width: 20em) {
+
+    .nav a {
+      display: inline-block;
+    }
+
+    .nav li {
+      display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 45em) {
+
+	.logo-icon {
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+    .menard-title {
+        float: left;
+    }
+
+    .nav {
+      text-align: right;
+    }
+
+    .nav a {
+        display: inline-block;
+    }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+	.logo-icon {
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+    .menard-title {
+        float: left;
+    }
+
 }
