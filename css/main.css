@@ -206,6 +206,7 @@ transform: scale(1.25,1.25);
 	top: 600px;
 	background-color: #B2B2B2;
 	border-style: solid;
+	width: 100%;
 }
 
 .media-p {
