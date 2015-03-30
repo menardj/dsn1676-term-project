@@ -332,6 +332,22 @@ transform: scale(1.25,1.25);
   text-align: center;
 }
 
+.about-section {
+  position: absolute;
+  top: 900px;
+  background-color: #B2B2B2;
+  border-style: solid;
+  width: 100%;
+}
+
+.contact-section {
+  position: absolute;
+  top: 1200px;
+  background-color: #B2B2B2;
+  border-style: solid;
+  width: 100%;
+}
+
 @media only screen and (min-width: 20em) {
 
     .nav a {

@@ -1,3 +1,5 @@
+$('.nav').localScroll();
+
 var $btnCollapseExpand01 = $('.btn-collapse-expand01');
 var $panel01 = $('.panel01');
 
