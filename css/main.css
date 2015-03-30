@@ -28,7 +28,7 @@ body {
 }
 
 .letterandarrow {
-		position: absolute;
+	position: absolute;
 	background-image: url(../images/letterandarrow.svg);
 	top: 180px;
 	left: calc(50% - 160px);
