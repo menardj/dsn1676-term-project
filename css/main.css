@@ -349,12 +349,22 @@ transform: scale(1.25,1.25);
 }
 
 .contact-icon {
- display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   max-width: 200px;
 }
+
+.contact-icon:hover {
+  max-width: 250px;
+}
+
+
+
+
+
+
 
 @media only screen and (min-width: 20em) {
 
