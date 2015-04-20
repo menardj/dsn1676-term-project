@@ -165,6 +165,7 @@ transform: scale(1.25,1.25);
 
 .nav li {
   display: inline-block;
+  font-family: 'Lato', sans-serif;
 }
 
 .nav a,
@@ -342,18 +343,30 @@ transform: scale(1.25,1.25);
   width: 100%;
 }
 
-.contact-section {
+.about-header {
+  font-family: 'Lato', sans-serif;
   text-align: center;
+}
+
+.contact-section {
   background-color: #B2B2B2;
   border-style: solid;
   width: 100%;
 }
 
+.contact-header {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
 .contact-p {
   width: 100%;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.contact-p-address {
+  text-align: center;
 }
 
 .contact-icon {
@@ -372,6 +385,20 @@ transform: scale(1.25,1.25);
 
 .js-active#blackpolygon {
   stroke-width: 10;
+}
+
+.backtotop-section {
+  width: 100%;
+}
+
+.backtotop {
+text-align: center;
+width: 100%;
+}
+
+.backtotopicon {
+  width: 100%;
+  max-width: 50px;
 }
 
 @media only screen and (min-width: 20em) {
