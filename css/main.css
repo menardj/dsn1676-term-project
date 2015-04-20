@@ -343,9 +343,17 @@ transform: scale(1.25,1.25);
 }
 
 .contact-section {
+  text-align: center;
   background-color: #B2B2B2;
   border-style: solid;
   width: 100%;
+}
+
+.contact-p {
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact-icon {
