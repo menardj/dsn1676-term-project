@@ -357,8 +357,8 @@ transform: scale(1.25,1.25);
 }
 
 #blackpolygon {
-   stroke: #FFF;
-   stroke-width: 0;
+  stroke: #FFF;
+  stroke-width: 0;
   transition: all 2s ease;
 }
 
